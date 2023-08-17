@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = `mongodb+srv://chatapp:chatapp@cluster0.pae0gpr.mongodb.net/Chatapp?retryWrites=true&w=majority`;
+const url = `mongodb+srv://chatapp:chatapp@cluster0.pae0gpr.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose
   .connect(url, {
