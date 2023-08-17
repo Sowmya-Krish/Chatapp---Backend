@@ -5,6 +5,11 @@
       "use": "@vercel/node"
     }
   ],
+  "build":[
+    {
+      "src":"./app.js"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
