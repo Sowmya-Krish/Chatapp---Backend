@@ -4,7 +4,7 @@ const bcryptjs = require("bcryptjs");
 const cors = require("cors");
 const io = require("socket.io")(8080, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://eloquent-cranachan-67c20c.netlify.app/users/sign_in",
   },
 });
 
